@@ -1,0 +1,225 @@
+.icoo {
+    padding-left: 10px;
+}
+
+.icoo1 {
+    padding-right: 5px;
+}
+
+.footer {
+    padding-top: 20px;
+    display: block;
+}
+
+.footer i:hover {
+    background-color: #6a726e7f;
+}
+
+.topcourses {
+    padding: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.cardhover {
+    background-color: #eee3dc6d;
+    border-color: white;
+}
+
+.cardhover:hover {
+    border-color: rgba(0, 0, 0, 0.264);
+}
+
+.half-poster h4 {
+    text-align: center;
+}
+
+.cento {
+    text-align: center;
+}
+
+.deco a {
+    text-decoration: none;
+}
+
+.enrollhover:hover {
+    color: rgb(20, 221, 147);
+}
+
+.parahover:hover {
+    color: #49CA8A;
+}
+
+.logohover:hover {
+    text-decoration: underline;
+}
+
+.nav-item:hover {
+    border: 2px solid rgba(0, 0, 0, 0);
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.navbar-brand:hover {
+    border: 2px solid rgba(0, 0, 0, 0);
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.card-deck {
+    display: flex;
+}
+
+.txthover:hover {
+    color: rgba(19, 225, 143, 0.64);
+    text-decoration: underline;
+}
+
+
+.ist {
+    background-image: url(pr1bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ist2 {
+    background-image: url(bg33.jpg);
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 376px) and (max-width: 414px) {
+    .banner-text-text {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 414px) {
+    .banner-text-text {
+        font-size: 6px;
+        top: 58px;
+    }
+}
+
+@media(max-width:375px) {
+    .ist {
+        height: 25rem;
+    }
+}
+.borderoncertified:hover{
+    border: 1px solid rgba(0, 0, 0, 0.264);    
+}
+
+
+@media(min-width:280px) and (max-width:653px) {
+    .banner-head {
+       position: absolute;
+       top: -122px;
+       font-size: 10px;
+    }
+ 
+    .para-text {
+       position: absolute;
+       top: -64px;
+       font-size: 8px;
+       opacity: 0.5;
+    }
+ 
+    .two-button {
+       position: relative;
+       top: -5px;
+       display: flex;
+       padding: 0px;
+       font-size: small;
+    }
+ }
+ 
+ @media(min-width:912px) and (max-width:1368px) {
+    .banner-head {
+       position: absolute;
+       top: -50px;
+       font-size: 20px;
+    }
+ 
+    .para-text {
+       position: absolute;
+       top: 60px;
+       font-size: 15px;
+       opacity: 0.5;
+    }
+ 
+    .two-button {
+       position: relative;
+       top: 180px;
+    }
+ }
+ 
+ @media(min-width:768px) and (max-width:1024px) {
+    .banner-head {
+       position: absolute;
+       top: -60px;
+       font-size: 20px;
+    }
+ 
+    .para-text {
+       position: absolute;
+       top: 35px;
+       font-size: 12px;
+       opacity: 0.5;
+    }
+ 
+    .two-button {
+       position: relative;
+       top: 150px;
+    }
+ }
+ 
+ @media(min-width:1000px){
+    .banner-head {
+       position: absolute;
+       top: -32px;
+       font-size: 30px;
+       width: 356px;
+       padding-left: 92px;
+    }
+ 
+    .para-text {
+       position: absolute;
+       top: 130px;opacity: 0.5;
+       padding-left: 91px;
+       width: 448px;
+       font-size: 20px;
+    }
+ 
+    .two-button {
+       position: relative;
+       padding-left: 102px;
+       top: 322px;
+    }
+ }
+ 
+ 
+ 
+ @media (max-width: 500px){
+   .enroll-buttonn button{
+    padding: 0px;
+   }
+   .story-buttonn button{
+    padding: 0px;
+   }
+   .para-text {
+    opacity: 0.5;
+   
+ }
+ }
+
+ .butto{
+    border: 1px solid black ;
+    box-shadow: 5px 5px #ff8000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
